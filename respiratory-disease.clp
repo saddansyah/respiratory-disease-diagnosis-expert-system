@@ -10,7 +10,7 @@
   (has_symptom sesak_napas)
   (has_symptom sakit_tenggorokan)
   (has_symptom nyeri_dada)
-  (has_symptom penurunan kesadaran)
+  (has_symptom penurunan_kesadaran)
   =>
   (assert (disease_is Bronkitis))
 )
@@ -26,7 +26,7 @@
   (has_symptom demam)
   (has_symptom sakit_tenggorokan)
   (has_symptom suara_serak)
-  (has_symptom penurunan kesadaran)
+  (has_symptom penurunan_kesadaran)
   =>
   (assert (disease_is Laringitis))
 )

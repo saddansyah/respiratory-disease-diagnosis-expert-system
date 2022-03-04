@@ -46,7 +46,7 @@ class Diagnosis:
         data = {}
 
         for row in csvreader:
-            row[0] = row[0].lower().strip().replace(" ","-")
+            row[0] = row[0].lower().strip().replace(" ","_")
             data[row[0]]= row[1] = ",".join(row[1:])
             row[2:] = ""
             rows.append(row)
@@ -60,10 +60,9 @@ class Diagnosis:
             print(f'Kamu mungkin mempunyai penyakit: {", ".join(your_disease)}')
             print('\nPenjelasan:\n')
             for name in your_disease:
-                your_disease_desc = self.GetDiseaseDesc(name.lower())
+                your_disease_desc = self.GetDiseaseDesc(name.lower()."_".join())
                 print(your_disease_desc)
                 print("\n")
         else:
-            print('Selamat kamu sehat')
-        #print(your_disease_desc)
+            print('Penyakit tidak terdeteksi, mungkin coba tambah gejala')
 
