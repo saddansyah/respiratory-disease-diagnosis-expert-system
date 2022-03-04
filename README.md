@@ -1,5 +1,5 @@
 # Respiratory Disease Diagnosis Expert System
- Implementasi Expert System untuk mendiagnosis berbagai gangguan pernapasan
+ Implementasi Expert System untuk mendiagnosis berbagai gangguan pernapasan.
  
 ## Oleh:
  Saddan Syah Akbar <br />
