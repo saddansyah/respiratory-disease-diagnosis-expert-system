@@ -60,7 +60,7 @@ class Diagnosis:
             print(f'Kamu mungkin mempunyai penyakit: {", ".join(your_disease)}')
             print('\nPenjelasan:\n')
             for name in your_disease:
-                your_disease_desc = self.GetDiseaseDesc(name.lower()."_".join())
+                your_disease_desc = self.GetDiseaseDesc(name.lower())
                 print(your_disease_desc)
                 print("\n")
         else:
